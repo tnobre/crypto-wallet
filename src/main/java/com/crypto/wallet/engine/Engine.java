@@ -127,7 +127,6 @@ public class Engine {
         engine.execute();
         long end = System.currentTimeMillis();
         log.info("Completed in: {} s", (end - beginning) / 1000.0 );
-
     }
 
 }
